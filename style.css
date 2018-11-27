@@ -19,7 +19,7 @@
 }
 
 .login__container {
-    margin-top: 50px;
+    margin-top: 8%;
     margin-left: 100px;
 }
 
@@ -36,7 +36,6 @@
   }
   
   .inner {
-    /* margin-top: 12%; */
     display: inline-block;
     vertical-align: middle;
   }
@@ -45,5 +44,5 @@
     background-color: #273340;
     border-color: #5e5e5f;
     color: #fff;
-    width: 100px;
+    min-width: 100px;
   }
