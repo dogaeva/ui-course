@@ -1,0 +1,49 @@
+.login__body {
+    background-image: linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url("./macbook-beats-headphones.jpg");
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.login__btn {
+    text-align: center;
+}
+
+.login__container::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.login__container {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.login__card {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.outer::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  
+  .inner {
+    /* margin-top: 12%; */
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .btns {
+    background-color: #273340;
+    border-color: #5e5e5f;
+    color: #fff;
+    width: 100px;
+  }
