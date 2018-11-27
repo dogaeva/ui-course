@@ -44,5 +44,9 @@
     background-color: #273340;
     border-color: #5e5e5f;
     color: #fff;
-    min-width: 100px;
+  }
+
+  .btn {
+      padding-right: 25px !important;
+      padding-left: 25px !important;
   }
